@@ -13,7 +13,7 @@ A real-estate agent can use that list with the given functionalities below.
 - Average prices for rental houses are displayed on the console. (calculateAverageForRental)
 - The same advert should not be added to the list.
 
-ArrayList data structure is used for this program. For the sortByPrice method, selection sort is used. For the sortByState method, bubble sort is used.
+The ArrayList data structure is used for this program. For the sortByPrice method, selection sort is used. For the sortByState method, bubble sort is used.
 
 ## How To Run
 
@@ -21,5 +21,6 @@ To run this program perfectly, please follow the descriptions.
 
 - First, you need to run the Main.java and write 'y' to add a house or 'n' to not add a house anymore.
 - If you wrote 'y', then you should enter the information of state (String), price (double), and type (String). For the state field, you may consider “rental” or “sale” kinds of states. The prices of the houses are considered with only 2 digits after the comma.
+- Finally, the program will print all houses' information one by one, multiples of 10 in red color, houses sorted by state, houses sorted by price, and the average for rental houses.
 
 **Regards!**
